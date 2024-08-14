@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #2b2922;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #2b2922; */
+  /* height: 100px; */
+}
+div .logo {
+  height: 40px;
+  margin: 40px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 296px;
+  /* margin-left: 25px 0px 0px 150px; */
+}
+.list-item {
+  color: white;
+  font-size: 18px;
+  margin: 23px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.list-item:hover {
+  font-weight: 400;
+  opacity: 1;
+}
+.button-small {
+  color: #ffc233;
+  border: 1px solid #ffc233;
+  background: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  margin: 25px 70px 0px 0px;
+  font-size: 18px;
+  font-weight: 100;
+  opacity: 0.7;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  height: 250px;
+  background-color: #2b2922;
+}
+.hero-heading {
+  /* flex: 1; */
+  font-size: 70px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 154%;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+p {
+  /* flex: 1; */
+  color: white;
+  opacity: 0.8;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  justify-content: flex-start;
+  /* padding: 127px; */
+  margin-top: 80px;
+  /* margin-left: -191px; */
+  margin-right: 130px;
+  margin-left: 150px;
+}
+.hero::before {
+  background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 44vh;
+  z-index: -1;
+  margin-top: 245px;
+}
+/* .justice img{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+} */
